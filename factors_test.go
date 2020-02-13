@@ -4,34 +4,54 @@ import (
 	"testing"
 )
 
-func TestFP(t *testing.T) {
+func TestSinglePaymentCompoundAmount(t *testing.T) {
 	// TODO
 }
 
-func TestPF(t *testing.T) {
+func TestSinglePaymentPresentWorth(t *testing.T) {
 	// TODO
 }
 
-func TestAF(t *testing.T) {
+func TestUniformSeriesSinkingFund(t *testing.T) {
 	// TODO
 }
 
-func TestFA(t *testing.T) {
+func TestUniformSeriesCompoundAmount(t *testing.T) {
 	// TODO
 }
 
-func TestAP(t *testing.T) {
+func TestUniformSeriesCapitalRecovery(t *testing.T) {
 	// TODO
 }
 
-func TestPA(t *testing.T) {
+func TestUniformSeriesPresentWorth(t *testing.T) {
 	// TODO
 }
 
-func TestPG(t *testing.T) {
+func TestArithmeticGradientPresentWorth(t *testing.T) {
 	// TODO
 }
 
-func TestAG(t *testing.T) {
+func TestArithmeticGradientToUniformSeries(t *testing.T) {
+	// TODO
+}
+
+func TestGeometricSeriesPresentWorth(t *testing.T) {
+	// TODO
+}
+
+func TestContinuousCompoundingSinkingFund(t *testing.T) {
+	// TODO
+}
+
+func TestContinuousCompoundingCapitalRecovery(t *testing.T) {
+	// TODO
+}
+
+func TestContinuousCompoundingSeriesCompoundAmount(t *testing.T) {
+	// TODO
+}
+
+func TestContinuousCompoundingSeriesPresentWorth(t *testing.T) {
 	// TODO
 }
