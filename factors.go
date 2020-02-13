@@ -60,5 +60,5 @@ func PG(i float64, n int) float64 {
 // gradient series is 0.
 func AG(i float64, n int) float64 {
 	return (math.Pow(1+i, float64(n)) - i*float64(n) - 1) /
-		(i*math.Pow(1+i, float64(n)) - 1)
+		(i*math.Pow(1+i, float64(n)) - i)
 }
